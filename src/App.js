@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 
 const api = {
   key: "cad6d8dda64da142c3c83f14a3156fbd",
-  base: "http://api.openweathermap.org/data/2.5/" 
+  base: "https://api.openweathermap.org/data/2.5/" 
 }
 const dateBuilder = (d) => {
   let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
